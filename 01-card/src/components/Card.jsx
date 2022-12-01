@@ -7,7 +7,7 @@ function Card() {
         <img className="profile-pic" src="src/img/profile.jpg" alt="Profile picture" />
         <Greetings></Greetings>
         <br />
-        <h3>I'm learning React!! :D</h3>
+        <h3>I'm learning React!! :D </h3>
     </div>);
 }
 
