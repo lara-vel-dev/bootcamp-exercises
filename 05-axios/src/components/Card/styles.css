@@ -1,0 +1,36 @@
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+
+.card {
+    width: 300px;
+    height: 450px;
+    box-shadow: 0 10px 20px #000;
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+}
+
+.card .shape {
+    background-color: #EF5350;
+    height: 250px;
+    width: 400px;
+    margin-left: -20px;
+    position: relative;
+    top: -80px;
+    box-shadow: 0 2px 15px #000;
+    transform: rotate(25deg);
+}
+
+.card .shape img {
+    height: 180px;
+    width: 180px;
+    background-size: cover;
+    margin-left: 80px;
+    position: relative;
+    top: 160px;
+    transform: rotate(-20deg);
+}
